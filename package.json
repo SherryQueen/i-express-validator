@@ -1,0 +1,22 @@
+{
+  "name": "i-express-validator",
+  "version": "1.0.0",
+  "description": "简单封装的express字段校验",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherryQueen/i-express-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "express"
+  ],
+  "author": "56",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SherryQueen/i-express-validator/issues"
+  },
+  "homepage": "https://github.com/SherryQueen/i-express-validator#readme",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
