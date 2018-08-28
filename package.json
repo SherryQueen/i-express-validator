@@ -1,6 +1,6 @@
 {
   "name": "i-express-validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "简单封装的express字段校验",
   "repository": {
     "type": "git",
