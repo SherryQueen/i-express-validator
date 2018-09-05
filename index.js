@@ -5,7 +5,7 @@
  * @Author: 56 
  * @Date: 2018-03-11 15:47:39 
  * @Last Modified by: 56
- * @Last Modified time: 2018-08-28 17:03:13
+ * @Last Modified time: 2018-08-29 11:05:20
  */
 const { html2Escape } = require('./tools')
 
@@ -88,7 +88,7 @@ module.exports = function(obj, validations, isUpdate = false) {
         // 重置正则匹配位置
         validation.match.lastIndex = 0
         if (!validation.match.test(value)) {
-          throw new Error(`${label}输入不正确`)
+          throw new Error(`${label}格式错误`)
         }
       }
     } else if (validation.type === 'number') {
